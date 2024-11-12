@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnection.SingletonDP.Before", "DBConnection.SingletonDP.Before\DBConnection.SingletonDP.Before.csproj", "{B1514576-E979-4DD5-AE9D-5C06A3A7173C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnection.SingletonDP.After", "DbConnection.SingletonDP.After\DbConnection.SingletonDP.After.csproj", "{9986FC92-6710-45AD-B6A9-E4E9113975D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.FactoryDP.Before", "NotificationSystem.FactoryDP.Before\NotificationSystem.FactoryDP.Before.csproj", "{1BF4FFC6-29F8-41B2-81B2-774AD8D940AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.FactoryDP.After", "NotificationSystem.FactoryDP.After\NotificationSystem.FactoryDP.After.csproj", "{9BE2EF28-BC63-4E7C-9958-3B00191207B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Adaptor.Before", "PaymentSystem.Adaptor.Before\PaymentSystem.Adaptor.Before.csproj", "{BB3D52F9-3A5A-4036-A3BF-4941248D4A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Adaptor.After", "PaymentSystem.Adaptor.After\PaymentSystem.Adaptor.After.csproj", "{A24332E0-BFF2-43C4-9E1E-386D01B8AB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingSystem.Strategy.Before", "SortingSystem.Strategy.Before\SortingSystem.Strategy.Before.csproj", "{9BFFCC20-5AC7-4BB6-81C5-02385BE09315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingSystem.Strategy.After", "SortingSystem.Strategy.After\SortingSystem.Strategy.After.csproj", "{5FFAEF12-5324-4288-8DD5-2F54D3C19117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPaperSystem.Observer.Before", "NewPaperSystem.Observer.Before\NewPaperSystem.Observer.Before.csproj", "{31234E10-82E4-414B-9FD6-4360E955E70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPaperSystem.Observer.After", "NewPaperSystem.Observer.After\NewPaperSystem.Observer.After.csproj", "{FAB6F1A7-3107-4383-AAC2-6843147C204D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1514576-E979-4DD5-AE9D-5C06A3A7173C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1514576-E979-4DD5-AE9D-5C06A3A7173C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1514576-E979-4DD5-AE9D-5C06A3A7173C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1514576-E979-4DD5-AE9D-5C06A3A7173C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9986FC92-6710-45AD-B6A9-E4E9113975D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9986FC92-6710-45AD-B6A9-E4E9113975D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9986FC92-6710-45AD-B6A9-E4E9113975D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9986FC92-6710-45AD-B6A9-E4E9113975D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF4FFC6-29F8-41B2-81B2-774AD8D940AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF4FFC6-29F8-41B2-81B2-774AD8D940AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF4FFC6-29F8-41B2-81B2-774AD8D940AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF4FFC6-29F8-41B2-81B2-774AD8D940AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE2EF28-BC63-4E7C-9958-3B00191207B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE2EF28-BC63-4E7C-9958-3B00191207B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE2EF28-BC63-4E7C-9958-3B00191207B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE2EF28-BC63-4E7C-9958-3B00191207B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3D52F9-3A5A-4036-A3BF-4941248D4A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3D52F9-3A5A-4036-A3BF-4941248D4A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3D52F9-3A5A-4036-A3BF-4941248D4A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3D52F9-3A5A-4036-A3BF-4941248D4A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24332E0-BFF2-43C4-9E1E-386D01B8AB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24332E0-BFF2-43C4-9E1E-386D01B8AB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24332E0-BFF2-43C4-9E1E-386D01B8AB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24332E0-BFF2-43C4-9E1E-386D01B8AB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFFCC20-5AC7-4BB6-81C5-02385BE09315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFFCC20-5AC7-4BB6-81C5-02385BE09315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFFCC20-5AC7-4BB6-81C5-02385BE09315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFFCC20-5AC7-4BB6-81C5-02385BE09315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFAEF12-5324-4288-8DD5-2F54D3C19117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFAEF12-5324-4288-8DD5-2F54D3C19117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFAEF12-5324-4288-8DD5-2F54D3C19117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFAEF12-5324-4288-8DD5-2F54D3C19117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31234E10-82E4-414B-9FD6-4360E955E70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31234E10-82E4-414B-9FD6-4360E955E70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31234E10-82E4-414B-9FD6-4360E955E70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31234E10-82E4-414B-9FD6-4360E955E70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB6F1A7-3107-4383-AAC2-6843147C204D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB6F1A7-3107-4383-AAC2-6843147C204D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB6F1A7-3107-4383-AAC2-6843147C204D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB6F1A7-3107-4383-AAC2-6843147C204D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DAE2E1E-94AE-4E3C-8489-192C553D7272}
+	EndGlobalSection
+EndGlobal
